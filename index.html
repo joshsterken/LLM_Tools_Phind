@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dallas Mavericks Fan Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #00688B;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #00688B;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 25%;
+            background-color: #00688B;
+            color: white;
+            padding: 10px;
+        }
+        .main-content {
+            width: 70%;
+            padding: 10px;
+        }
+        footer {
+            background-color: #00688B;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .form-container {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .form-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        input, textarea {
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 5px 10px;
+            background-color: #00688B;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dallas Mavericks Fan Site</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Navigation</a>
+        <a href="#">Merchandise</a>
+    </nav>
+    <div class="content">
+        <div class="main-content">
+            <h2>About the Mavericks</h2>
+            <p>The Dallas Mavericks are a professional basketball team based in Dallas, Texas. They are a member of the Southwest Division of the Western Conference in the National Basketball Association (NBA).</p>
+            <h2>Blog</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc at cursus pellentesque, nisl eros pellentesque quam, a faucibus nisl nunc id lorem.</p>
+        </div>
+        <div class="sidebar">
+            <h3>Scores & News</h3>
+            <p>Latest game: Mavericks 105, Rockets 98</p>
+            <p>Breaking news: Mavericks sign new player!</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Dallas Mavericks Fan Site. All rights reserved.
+    </footer>
+    <div class="form-container">
+        <h2 class="form-header">Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
